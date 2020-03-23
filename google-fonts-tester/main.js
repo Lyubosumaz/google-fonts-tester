@@ -50,6 +50,7 @@ function setFilter() {
     } else {
         filteredGoogleFonts = allGoogleFonts.filter(font => dropdownCategory.value === font.category);
     }
+    searchInput.value = '';
     setFontsDropdownHTML();
 }
 
