@@ -1,0 +1,42 @@
+:root {
+    --myFontCategory: 'my-font-category';
+    --myFontFamily: 'my-font-family';
+    --url: url(--myFontUrl);
+}
+
+@font-face {
+    font-family: var(--myFontFamily);
+    src: var(--url) format('truetype');
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    font-family: var(--myFontCategory), var(--myFontFamily);
+}
+
+h1 {
+    font-family: var(--myFontCategory), var(--myFontFamily);
+}
+
+h2 {
+    font-family: var(--myFontCategory), var(--myFontFamily);
+}
+
+h3 {
+    font-family: var(--myFontCategory), var(--myFontFamily);
+}
+
+h4 {
+    font-family: var(--myFontCategory), var(--myFontFamily);
+}
+
+h5 {
+    font-family: var(--myFontCategory), var(--myFontFamily);
+}
+
+h6 {
+    font-family: var(--myFontCategory), var(--myFontFamily);
+}
